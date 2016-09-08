@@ -1,10 +1,19 @@
-h2 {
+h1 {
     text-align: center;
-    font-family: fantasy;
-    color: #808aff;
+    font-family: sans-serif;
+    color: orangered;
 }
 
 body {
     background-image: url("");
 }
 
+.banner {
+    position: absolute;
+    right: auto;
+    top: auto;
+    display: inline;
+    background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz"), url("http://67.media.tumblr.com/21930d386f5f7dcea04237a4fcd71eb8/tumblr_nicdp50AS31r42bqyo1_1280.jpg"), url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/43bd5aaf41987eaa0f13e6f2d5eae1e7.jpg?itok=6kvFNKZL");
+    background-size: auto;
+    width: 100%;
+}
