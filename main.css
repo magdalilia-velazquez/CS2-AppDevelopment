@@ -1,11 +1,12 @@
 h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: cursive;
     color: orangered;
 }
 
 body {
     background-image: url("");
+    background-size: cover;
 }
 
 .banner {
@@ -13,7 +14,39 @@ body {
     right: auto;
     top: auto;
     display: inline;
-    background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz"), url("http://67.media.tumblr.com/21930d386f5f7dcea04237a4fcd71eb8/tumblr_nicdp50AS31r42bqyo1_1280.jpg"), url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/43bd5aaf41987eaa0f13e6f2d5eae1e7.jpg?itok=6kvFNKZL");
+    background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz");
     background-size: auto;
     width: 100%;
+}
+
+a:hover {
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
