@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-    font-family: cursive;
-    color: orangered;
+    font-family: monospace;
+    color: #FFA500;
 }
 
 body {
@@ -48,5 +48,9 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: crimson;
+}
+
+.imgOne {
+    
 }
