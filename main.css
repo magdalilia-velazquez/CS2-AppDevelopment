@@ -5,8 +5,12 @@ h1 {
 }
 
 body {
-    background-image: url("");
+    background-color: crimson;
     background-size: cover;
+}
+
+header {
+    display: block;
 }
 
 .banner {
@@ -21,6 +25,7 @@ body {
 
 a:hover {
     color: aqua;
+    display: center;
 }
 
 ul {
@@ -49,8 +54,4 @@ li a:hover:not(.active) {
 
 .active {
     background-color: crimson;
-}
-
-.imgOne {
-    
 }
