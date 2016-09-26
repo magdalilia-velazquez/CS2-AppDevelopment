@@ -26,6 +26,7 @@ header {
 a:hover {
     color: aqua;
     display: center;
+    
 }
 
 ul {
@@ -54,4 +55,12 @@ li a:hover:not(.active) {
 
 .active {
     background-color: crimson;
+}
+
+.Alist {
+    
+}
+
+.Avideos {
+    
 }
