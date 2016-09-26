@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    color: red;
+}
+
+body {
+    background-color: crimson;
+    background-size: cover;
+}
+
+header {
+    display: block;
+}
+
+.banner {
+    position: absolute;
+    right: auto;
+    top: auto;
+    display: inline;
+    background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz");
+    background-size: auto;
+    width: 100%;
+}
+
+a:hover {
+    color: aqua;
+    display: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: crimson;
+}
+
+.Alist {
+    
+}
+
+.Avideos {
+    
+}
