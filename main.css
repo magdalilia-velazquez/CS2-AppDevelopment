@@ -1,13 +1,11 @@
 h1 {
     text-align: center;
     font-family: 'Yatra One', cursive;
-    color: red;
 }
 
 body {
-    background-color: crimson;
-    background-size: cover;
-    background-image: url("")
+    background-size: auto;
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKX3B6hYkdKLekFHvmeQ25MKjUN2D7KmGwEG-24Tq5fmvDe75k")
 }
 
 header {
@@ -15,13 +13,14 @@ header {
 }
 
 .banner {
-    position: absolute;
     right: auto;
     top: auto;
-    display: inline;
+    display: inline-block;
     background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz");
     background-size: auto;
     width: 100%;
+    border: 3px solid crimson;
+    color: crimson;
 }
 
 a:hover {
