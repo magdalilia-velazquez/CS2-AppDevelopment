@@ -5,6 +5,7 @@ h1 {
 }
 
 body {
+    background-size: auto;
     background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKX3B6hYkdKLekFHvmeQ25MKjUN2D7KmGwEG-24Tq5fmvDe75k");
 }
 
@@ -19,7 +20,6 @@ header {
     background-image: url("http://www.paramore.net/sites/g/files/g2000001591/f/styles/album_image_sidebar_v5/public/4a6563e0e31b5.jpg?itok=6ehnzCWz");
     background-size: auto;
     width: 100%;
-    border: 3px solid crimson;
     color: crimson;
 }
 
@@ -62,7 +62,7 @@ p {
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
-    border: 5px solid crimson;
+    border: 20px solid white;
     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbUZxhzUZskWVSXV2MYR0gy1h7th7HTBaHKNmSzuXJJHVfcNc_");
     text-align: center;
 }
