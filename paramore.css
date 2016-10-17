@@ -5,7 +5,6 @@ h1 {
 }
 
 body {
-    background-color: crimson;
     background-size: auto;
     background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKX3B6hYkdKLekFHvmeQ25MKjUN2D7KmGwEG-24Tq5fmvDe75k");
 }
@@ -68,4 +67,3 @@ h2 {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hoVudTkJwe0muypUHJ0hz1jGJki95pajdqRDeUkHDhhv1O2d");
     background-size: contain;
 }
-
