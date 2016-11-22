@@ -20,12 +20,14 @@ header {
     background-image: url("/images/paramoreheaderimg.jpg");
     background-size: auto;
     width: 100%;
+    border: 3px solid crimson;
     color: crimson;
 }
 
-a:hover {
-    color: aqua;
+li a:hover {
+    color: crimson;
     display: center;
+    font-size: 14px;
 }
 
 ul {
@@ -56,6 +58,10 @@ li a:hover:not(.active) {
     background-color: crimson;
 }
 
+.active:hover {
+    background-color: grey;
+}
+
 p {
     color: crimson;
     padding-top: 25px;
@@ -65,4 +71,8 @@ p {
     border: 20px solid white;
     background-image: url("/images/paramoreh2img.jpg");
     text-align: center;
+}
+
+#Red {
+          
 }
