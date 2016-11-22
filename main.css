@@ -23,9 +23,10 @@ header {
     color: crimson;
 }
 
-a:hover {
-    color: aqua;
+li a:hover {
+    color: crimson;
     display: center;
+    font-size: 14px;
 }
 
 ul {
@@ -54,4 +55,8 @@ li a:hover:not(.active) {
 
 .active {
     background-color: crimson;
+}
+
+.active:hover {
+    background-color: grey;
 }
